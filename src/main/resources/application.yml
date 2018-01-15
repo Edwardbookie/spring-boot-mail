@@ -1,0 +1,16 @@
+spring:
+  mail:
+    port: 587
+    host: smtp.qq.com
+    username: 1959719812@qq.com
+    password: vvhomewxlrqzecjj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 180000
+          starttls:
+            enable: true
+            required: true
+mail:
+  from: 1959719812@qq.com
